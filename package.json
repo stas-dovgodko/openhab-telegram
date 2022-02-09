@@ -1,0 +1,23 @@
+{
+  "name": "openhab-telegram",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stas-dovgodko/openhab-telegram.git"
+  },
+  "keywords": [
+    "openhab",
+    "telegram"
+  ],
+  "author": "standov@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stas-dovgodko/openhab-telegram/issues"
+  },
+  "homepage": "https://github.com/stas-dovgodko/openhab-telegram#readme"
+}
