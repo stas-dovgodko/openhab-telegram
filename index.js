@@ -65,6 +65,11 @@ class Telegram {
         return this;
     }
 
+    alert(message, ...args)
+    {
+        return this.message('❗' + message, ...args);
+    }
+
     image(url, caption)
     {
         this.actions.sendTelegramPhoto(url, caption);
@@ -83,12 +88,12 @@ class Telegram {
             buttons.push(button);
         }
 
-        this.actions.sendTelegramQuery(message, idx.toString(), ...buttons)
+        this.actions.sendTelegramQuery('❓' + message, idx.toString(), ...buttons)
 
         return this;
     }
 }
 
-exports.telegram = (thingUid) => {
+exports.bot = (thingUid) => {
     return new Telegram(thingUid);
 }

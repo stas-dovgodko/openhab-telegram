@@ -1,23 +1,51 @@
 {
-  "name": "openhab-telegram",
-  "version": "1.0.1",
+  "_from": "openhab-telegram",
+  "_id": "openhab-telegram@1.0.1",
+  "_inBundle": false,
+  "_integrity": "sha512-PyxjFpridwgwLupNMHyj18U3vSemfCqg2anKJa7GUAyGgbrSratV0PONYRxXH3ThBAsJRwGxEOXtcuUZiNxWOw==",
+  "_location": "/openhab-telegram",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "openhab-telegram",
+    "name": "openhab-telegram",
+    "escapedName": "openhab-telegram",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/openhab-telegram/-/openhab-telegram-1.0.1.tgz",
+  "_shasum": "f05e4b7648658c378979bc242d7a6cf551d718fc",
+  "_spec": "openhab-telegram",
+  "_where": "/etc/openhab/automation/js",
+  "author": {
+    "name": "standov@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/stas-dovgodko/openhab-telegram/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/stas-dovgodko/openhab-telegram.git"
-  },
+  "homepage": "https://github.com/stas-dovgodko/openhab-telegram#readme",
   "keywords": [
     "openhab",
     "telegram"
   ],
-  "author": "standov@gmail.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/stas-dovgodko/openhab-telegram/issues"
+  "main": "index.js",
+  "name": "openhab-telegram",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stas-dovgodko/openhab-telegram.git"
   },
-  "homepage": "https://github.com/stas-dovgodko/openhab-telegram#readme"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
 }
